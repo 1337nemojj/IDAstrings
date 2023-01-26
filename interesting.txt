@@ -1,0 +1,97 @@
+.rdata:00000001828667C0          00000016        m_nRoshanRespawnPhase
+.rdata:0000000182806AC8          0000000D        m_nAbilityID
+.rdata:000000018279D5A0          0000000E        m_nLocationID
+.rdata:000000018278ED48          0000000C        m_nPlayerID
+.rdata:000000018275AC90          00000010        m_nCampsStacked
+.rdata:0000000182671B0D          0000000F        PlayerPositions 
+m_iTeamVisibilityBitmask
+.rdata:0000000182677716	00000012	C	incoming_teleports
+.rdata:0000000182743BC8	00000010	C	teleport_effect
+.rdata:000000018286F9D0	00000028	C	DOTA_MINIMAP_EVENT_TEAMMATE_TELEPORTING
+.rdata:000000018286FAA0	00000025	C	DOTA_MINIMAP_EVENT_ENEMY_TELEPORTING
+.rdata:000000018286FAC8	00000026	C	DOTA_MINIMAP_EVENT_CANCEL_TELEPORTING
+.rdata:00000001828CF5D8	0000001E	C	MODIFIER_EVENT_ON_TELEPORTING
+.rdata:00000001828CF5F8	0000001D	C	MODIFIER_EVENT_ON_TELEPORTED
+.rdata:00000001828CFC58	00000024	C	MODIFIER_PROPERTY_SUPPRESS_TELEPORT
+
+.rdata:000000018276A948	00000033	C	CEntitySpawner<class C_DOTA_PortraitEntity>::Spawn
+.rdata:000000018276A980	00000036	C	CEntitySpawner<class C_DOTA_PortraitBaseModel>::Spawn
+.rdata:000000018276AB28	0000002D	C	CUtlMemory<class C_DOTA_BaseNPC *,int>::Grow
+.rdata:000000018276AC40	00000041	C	CUtlMemory<class CHandle<class C_DOTA_PortraitEntity>,int>::Grow
+.rdata:000000018276AEA0	0000002F	C	CUtlMemory<class C_DOTA_Item_Rune *,int>::Grow
+.rdata:000000018276AF00	00000044	C	CUtlMemory<struct C_DOTA_MapOverride::MapOverrideEntry_t,int>::Grow
+
+.rdata:00000001825FFD5A	00000017	C	DOTA_CM_AbilityStartUse
+.rdata:00000001826781D6	0000000C	C	EventAbility
+.rdata:0000000182677FD6	0000000E	C	ability_handle
+.rdata:0000000182677B4B	00000013	C	is_in_ability_phase
+
+.rdata:00000001827A3428	0000001B	C	AbilitySharedWithTeammates
+.rdata:00000001827A34E0	00000014	C	OnAbilityPhaseStart
+.rdata:00000001827A34F8	0000001A	C	OnAbilityPhaseInterrupted
+.rdata:00000001827A3588	00000015	C	AbilityCastAnimation
+
+.rdata:000000018266FC9C	00000015	C	observer_wards_placed
+.rdata:0000000182689BA0	00000015	C	observer_wards_placed
+===============================================================
+.rdata:0000000182941E98          0000000F        player_team_id
+.rdata:0000000183602E88          00000011        opponent_team_id 
+.rdata:000000018259B428          00000007        player   
+.rdata:0000000182668CB7          0000000C        player_loc_x
+.rdata:0000000182668CCD          0000000C        player_loc_y
+.rdata:0000000182764770          00000009        playerid 
+.rdata:000000018272FD50          0000000C        player_team 
+================[displays fog of war stats]====================
+.rdata:000000018284B438	0000001A	C	displays fog of war stats
+.rdata:00000001826FA4B0	00000013	C	m_vFogOffsetLayer0
+.rdata:00000001826FA4C8	00000013	C	m_vFogOffsetLayer1
+.rdata:0000000182861860	00000037	C	Set fog of war spectator mode. -1:All 2:Radiant 3:Dire
+.rdata:00000001828618B8	0000001A	C	dota_spectator_fog_of_war
+.rdata:00000001830C7328	00000016	C	m_vecEnemyHeroesInFog
+.rdata:0000000182809458	00000014	C	m_bFogOfWarDisabled
+========== [ offests for player_loc_x player_loc_y ]===============
+.rdata:0000000182668CB1                 db  28h ; (
+.rdata:0000000182668CB2                 db    2
+.rdata:0000000182668CB3                 db  12h
+.rdata:0000000182668CB4                 db  14h
+.rdata:0000000182668CB5                 db  0Ah
+.rdata:0000000182668CB6                 db  0Ch
+.rdata:0000000182668CB7                 db  70h ; p
+.rdata:0000000182668CB8                 db  6Ch ; l
+.rdata:0000000182668CB9                 db  61h ; a
+.rdata:0000000182668CBA                 db  79h ; y
+.rdata:0000000182668CBB                 db  65h ; e
+.rdata:0000000182668CBC                 db  72h ; r
+.rdata:0000000182668CBD                 db  5Fh ; _
+.rdata:0000000182668CBE                 db  6Ch ; l
+.rdata:0000000182668CBF                 db  6Fh ; o
+.rdata:0000000182668CC0                 db  63h ; c
+.rdata:0000000182668CC1                 db  5Fh ; _
+.rdata:0000000182668CC2                 db  78h ; x
+.rdata:0000000182668CC3                 db  18h
+.rdata:0000000182668CC4                 db    3
+.rdata:0000000182668CC5                 db  20h
+.rdata:0000000182668CC6                 db    1
+.rdata:0000000182668CC7                 db  28h ; (
+.rdata:0000000182668CC8                 db    2
+.rdata:0000000182668CC9                 db  12h
+.rdata:0000000182668CCA                 db  14h
+.rdata:0000000182668CCB                 db  0Ah
+.rdata:0000000182668CCC                 db  0Ch
+.rdata:0000000182668CCD                 db  70h ; p
+.rdata:0000000182668CCE                 db  6Ch ; l
+.rdata:0000000182668CCF                 db  61h ; a
+.rdata:0000000182668CD0                 db  79h ; y
+.rdata:0000000182668CD1                 db  65h ; e
+.rdata:0000000182668CD2                 db  72h ; r
+.rdata:0000000182668CD3                 db  5Fh ; _
+.rdata:0000000182668CD4                 db  6Ch ; l
+.rdata:0000000182668CD5                 db  6Fh ; o
+.rdata:0000000182668CD6                 db  63h ; c
+.rdata:0000000182668CD7                 db  5Fh ; _
+.rdata:0000000182668CD8                 db  79h ; y
+.rdata:0000000182668CD9                 db  18h
+.rdata:0000000182668CDA                 db    4
+.rdata:0000000182668CDB                 db  20h
+.rdata:0000000182668CDC                 db    1
+.rdata:0000000182668CDD                 db  28h ; (
